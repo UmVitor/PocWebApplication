@@ -11,9 +11,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    #env:
-      #Solution_Name: WeatherPoc.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
-      #Test_Project_Path: WeatherPoc.Test\WeatherPoc.Test.csproj
+    env:
+      Solution_Name: WheatherPoc\WeatherPoc.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
+      Test_Project_Path: WeatherPoc.Test\WeatherPoc.Test.csproj
 
     steps:
     - uses: actions/checkout@v3
